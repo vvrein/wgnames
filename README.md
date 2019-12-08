@@ -7,7 +7,10 @@ Without description
 ![without_description](assets/without_description.png)  
 
 ### Description
-A little awk wrapper for adding description to wg peer list
+A little awk wrapper for adding description to wg peer list  
+For now, it reads comfiguration file from `/etc/wireguard/wg0server.conf`  
+and should be invoked like `wg | ./wgnames.awk`  
+
 
 ### Configuration
 My peer list looks like this

@@ -1,6 +1,10 @@
 # WGnames
 ## Wireguard human readable peer names / description
-![with_description](assets/with_description.png) ![without_description](assets/without_description.png)
+With description  
+![with_description](assets/with_description.png)  
+
+Without description  
+![without_description](assets/without_description.png)  
 
 ### Description
 A little awk wrapper for adding description to wg peer list

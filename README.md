@@ -9,8 +9,11 @@ Without description
 ### Description
 A little awk wrapper for adding description to wg peer list  
 For now, it reads comfiguration file from `/etc/wireguard/wg0server.conf`  
-and should be invoked like `wg | ./wgnames.awk`  
+and should be invoked like `./wgnames.awk`  
 
+Suported commands:  
+`./wgnames.awk showconf <interface>`  
+this will print `wg showconf <interface>` with `#Description` included
 
 ### Configuration
 My peer list looks like this
